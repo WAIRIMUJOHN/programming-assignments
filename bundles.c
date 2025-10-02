@@ -8,10 +8,10 @@ int main(){
     int choice;
 
 	printf("select data bundles\n");
-	printf("1. 100MB @ 50 KES\n");
-	printf("2. 500MB @ 200 KES\n");
-	printf("3. 1GB   @ 350 KES\n");
-	printf("4. 2GB   @ 600 KES\n");
+	printf("1. 100MB = 50 KES\n");
+	printf("2. 500MB = 200 KES\n");
+	printf("3. 1GB   = 350 KES\n");
+	printf("4. 2GB   = 600 KES\n");
 	
 	printf("Enter your choice(1-4):\n");
 	scanf("%d", &choice);
@@ -36,4 +36,5 @@ int main(){
 		printf("invalid choice");
 	}
 return 0;
+
 }
